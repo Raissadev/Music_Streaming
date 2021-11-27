@@ -151,7 +151,7 @@ section.container-song-player figure:after{
         position: fixed;
         left:0;
         top:0;
-	overflow-y: auto;
+        overflow-y: auto;
         z-index: 9999;
     }
     div.paste-format-desing {
@@ -166,5 +166,8 @@ section.container-song-player figure:after{
     section.container-song-player figure h1 {
         font-size: 2rem;
         width: 90%;
+    }
+    section.container-songs li{
+        margin: 2%;
     }
 }
