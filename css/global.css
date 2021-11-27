@@ -417,7 +417,7 @@ audio::-webkit-media-controls-timeline{
         flex-wrap: wrap;
     }
     .min-w45-device-small{
-        min-width: 44% !important;
+        min-width: 45% !important;
     }
     .hide-device-small{
         display: none;
