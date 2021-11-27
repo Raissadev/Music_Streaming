@@ -35,7 +35,7 @@ class Song{
     }
 
     public static function get(){
-        $songs = \DB::connect()->prepare("SELECT * FROM `songs`");
+        $songs = \DB::connect()->prepare("SELECT * FROM `songs` ORDER BY id DESC");
         $songs->execute();
         $songs = $songs->fetchAll();
         return $songs;
