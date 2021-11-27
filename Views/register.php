@@ -1,5 +1,5 @@
 <section class="container h100 items-flex align-center just-center">
-    <div class="wrap w40">
+    <div class="wrap w40 w90-device-small">
         <form action="<?=BASE?>/register" method="POST" enctype="multipart/form-data" class="form-access items-flex align-center just-center flex-wrap">
             <input type="text" name="name" required placeholder="Your name" class="w100 margin-bottom-small" autocomplete="off" />
             <input type="text" name="email" required placeholder="Your email" class="w100 margin-bottom-small" autocomplete="off" />
