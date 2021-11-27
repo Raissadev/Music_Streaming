@@ -8,7 +8,6 @@ aside{
     background-color: var(--myWhite);
     box-shadow: 1px 0 3px var(--myPinkStrong);
     max-height: 100%;
-    overflow-y: auto;
 }
 aside .wrap{
     padding:2rem 1rem;
@@ -152,6 +151,7 @@ section.container-song-player figure:after{
         position: fixed;
         left:0;
         top:0;
+	overflow-y: auto;
         z-index: 9999;
     }
     div.paste-format-desing {
