@@ -20,7 +20,6 @@
 ![Design sem nome](https://user-images.githubusercontent.com/82960240/143663686-74bc32ce-0e25-4a96-b738-441da212aab7.gif)
 ![streaming](https://user-images.githubusercontent.com/82960240/143680748-21225709-d544-4bff-af21-355218183876.gif)
 
-
 <hr />
 <h3>Autor</h3>
 <h4>Raissa Arcaro Daros</h4>
