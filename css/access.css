@@ -1,0 +1,18 @@
+section.container {
+    background-image: url('../images/banner.jpg');
+    background-size: 100%;
+    background-position:center;
+}
+
+section.container form.form-access{
+    padding:2rem 1rem;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba(51, 52, 54, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+section.container form.form-access p, section.container form.form-access a{
+    color:var(--myPinkWeak)
+}
