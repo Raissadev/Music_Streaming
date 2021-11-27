@@ -9,7 +9,7 @@ if(isset($_GET['id'])){
     $song = $ajax->fetch();
     echo '
         <div class="row margin-bottom-default" id="box-song">
-            <a href="'.BASE.'/'.$song['id'].'"><p class="text-right margin-bottom-bigger-in">Next - <span style="color:var(--myBlackDefault)">'.$song['name'].'</span></p></a>
+            <a href="'.BASE.'/music/'.$song['id'].'"><p class="text-right margin-bottom-bigger-in">Next - <span style="color:var(--myBlackDefault)">'.$song['name'].'</span></p></a>
             <figure class="img-small-song text-center margin-bottom-default">
                 <img src="'.BASE.'/storage/uploads/'.$song['image'].'" id="image-song" />
             </figure>
