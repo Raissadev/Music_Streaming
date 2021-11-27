@@ -1,6 +1,6 @@
 # Music Streaming
 <h3>Sobre o Projeto</h3>
-<p>Fala Devs! Estou trazendo aqui um streaming de música que possui as seguintes funcionalidades: Registrar a sua música, Adicionar a playlist, Perfil, Update, Últimos vistos entre outros... Além de possuir um design "atraente" e responsivo.</p>
+<p>Fala Devs! Estou trazendo aqui um streaming de música que possui as seguintes funcionalidades: Registrar a sua música, Sistema de pesquisa, Adicionar a playlist, Perfil, Update, Total de views, Últimos vistos entre outros... Além de possuir um design "atraente" e responsivo.</p>
 
 <ul>
   <li>Lenguages:</li>
