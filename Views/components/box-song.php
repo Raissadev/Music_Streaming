@@ -10,7 +10,7 @@
         </div>
         
         <div class="row">
-            <audio controls autoplay id="audio" class="audio">
+            <audio controls id="audio" class="audio">
                 <source src="<?= BASE ?>/storage/songs/<?= $arg['song']['song'] ?>" type="audio/mp3">
             </audio>
         </div>
