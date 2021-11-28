@@ -6,7 +6,7 @@ e.preventDefault();
 console.log(e.target.value);
 let xhr = new XMLHttpRequest();
 
-xhr.open('GET','http://localhost/Projects/myMusics/App/Models/Ajax.php?id='+e.target.value,true);
+xhr.open('GET','http://localhost/App/Models/Ajax.php?id='+e.target.value,true);
 
     xhr.onreadystatechange = () => {
       if(xhr.readyState == 4){
