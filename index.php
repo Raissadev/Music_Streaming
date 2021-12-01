@@ -26,9 +26,6 @@ $router->post("/", "userController:home");
 
 $router->post("/update-profile", "userController:updateProfile");
 
-$router->group("error")->namespace("Test");
-$router->get("/{errcode}", "Coffee:notFound");
-
 $router->dispatch();
 
 if ($router->error()) {
